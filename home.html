@@ -7,38 +7,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
     <header>
         <div>
-            <h1 class="logo">
-                El impar
-            </h1>
-        </div>
+            <div class="logo">
+                <img src="images/Logo.png" alt="">
+            </div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <div class="btn btn-three " onClick="window.location.href='home.html';">
+                                <span class="boton">Home</span>
+                            </div>
+                            <div class="btn btn-three " onClick="window.location.href='contactos.html';">
+                                <span class="boton">Contactos</span>
+                            </div>
+                            <div class="btn btn-three " onClick="window.location.href='nosotros.html';">
+                                <span class="boton">Nosotros</span>
+                            </div>
+                            <div class="btn btn-three " onClick="window.location.href='carta.html';">
+                                <span class="boton">Carta</span>
+                            </div>
+                            <div class="btn btn-three " onClick="window.location.href='reservas.html';">
+                                <span class="boton">reservas</span>
+                            </div>
 
-        <div class="barra-botones">
-            <a class="boton" href="contactos.html">contactos</a>
-            <a class="boton" href="reservas.html">reservas</a>
-            <a class="boton" href="carta.html">carta</a>
-            <a class="boton" href="home.html">home</a>
-            <a class="boton" href="nosotros.html">nosotros</a>
-        </div>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
 
     </header>
     <br>
     <br>
-    <div class="caja-imagen-home">
-        <img class="imagen-home" src="images/vino.jpg" alt="">
-        <div class="epigrafe-imagen-home">
+    <div class="caja-imagen-home container">
+        <div class="row">
+            <div class="col col-12">
+                <img class="imagen-home" src="images/vino.jpg" alt="">
+            </div>
+            <div class="col col-12 epigrafe-imagen-home">
 
-            El restaurante más antiguo de la Ciudad d rafaela, fundado en 1960, te invita a disfrutar de su típica y
-            tradicional comida española.
-            El clásico restaurante está ubicado en sgto.Cabral y Belgrano, te ofrece los mejores pescados y mariscos,
-            cocina española y tradicional
+
+                <p> El restaurante más antiguo de la Ciudad d rafaela, fundado en 1960, te invita a disfrutar de su
+                    típica y
+                    tradicional comida española.
+                    El clásico restaurante está ubicado en sgto.Cabral y Belgrano, te ofrece los mejores pescados y
+                    mariscos,
+                    cocina española y tradicional
+                </p>
+
+            </div>
         </div>
-    </div>
-    <br>
+        <br>
 
 </body>
 
